@@ -10,11 +10,20 @@ OBS: Tente fazer em uma classe utilizando Math.pow() e em outra classe sem utili
 
 
 cont = 0
-acumulador = 1
-b = 3
+potencia = 1
+
 
 while (cont <= 15):
-    acumulador = cont * b
-    print(f"{b} elevado à {cont} é: {acumulador}")
+    potencia = potencia * 3
+    print(f"3 elevado à {cont} é: {potencia}")
     cont = cont + 1
+
+#tentativa de fazer
+
+
+
+
+
+
+
 
