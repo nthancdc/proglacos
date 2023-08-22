@@ -4,10 +4,8 @@
 
 cont = 1
 
-while (cont <= 200):
+while (cont < 200):
     div = cont % 4
     if (div == 0):
         print(f"{cont} dividido por 4 é: {cont / 4:.0f}")
-    else:
-        pass
     cont = cont + 1
